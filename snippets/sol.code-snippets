@@ -1,0 +1,30 @@
+{
+  "ss:Console Log": {
+    "description": "Log",
+    "prefix": ["con", "log"],
+    "body": ["console.log($1);"]
+  },
+  "ss:Create": {
+    "description": "New Contract",
+    "prefix": "ss-new",
+    "body": [
+      "// SPDX-License-Identifier: UNLICENSED"
+      "pragma solidity ^0.8.9;\n"
+      "contract ${1:Name} {",
+      "\tconstructor($2) {",
+      "\t\t$0",
+      "\t}",
+      "}"
+    ]
+  },
+  "ss:function external": {
+    "description": "Function Extrenal",
+    "prefix": "ss-function",
+    "body": [
+      "function ${1:Name}($2) external returns ($3) {",
+      "\t$0",
+      "}",
+    ]
+  },
+ 
+}

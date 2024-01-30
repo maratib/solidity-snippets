@@ -1,0 +1,21 @@
+{
+  "name": "solidity-snippets",
+  "displayName": "solidity-snippets",
+  "description": "solidity snippets",
+  "version": "0.0.1",
+  "repository": {},
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "solidity",
+        "path": "./snippets/sol.code-snippets"
+      }
+    ]
+  }
+}
