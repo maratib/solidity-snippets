@@ -2,8 +2,18 @@
   "name": "solidity-snippets",
   "displayName": "solidity-snippets",
   "description": "solidity snippets",
-  "version": "0.0.1",
-  "repository": {},
+  "version": "0.0.2",
+  "icon": "images/xpro-snippets.png",
+  "author": {
+    "name": "Maratib Ali Khan",
+    "email": "maratib@gmail.com",
+    "url": "https://maratib.github.io"
+  },
+  "publisher": "maratib",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maratib/solidity-snippets"
+  },
   "engines": {
     "vscode": "^1.70.0"
   },
