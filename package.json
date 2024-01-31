@@ -2,7 +2,7 @@
   "name": "solidity-snippets",
   "displayName": "solidity-snippets",
   "description": "solidity snippets",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "icon": "images/xpro-snippets.png",
   "author": {
     "name": "Maratib Ali Khan",
@@ -15,7 +15,7 @@
     "url": "https://github.com/maratib/solidity-snippets"
   },
   "engines": {
-    "vscode": "^1.70.0"
+    "vscode": "^1.63.0"
   },
   "categories": [
     "Snippets"
@@ -25,6 +25,10 @@
       {
         "language": "solidity",
         "path": "./snippets/sol.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/ts.code-snippets"
       }
     ]
   }

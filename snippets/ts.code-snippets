@@ -1,0 +1,43 @@
+{
+  "ts:Describe-load": {
+    "description": "New Describe with loadFixture",
+    "prefix": "ts-describe-load",
+    "body": [
+      "describe(\"${1:Name}\", () => {",
+      "\tasync function initFixture() {",
+      "\t\t$0",
+      "\t\tconst someObj = null",
+      "\t\treturn {someObj}",
+      "\t}",
+      "});",
+    ]
+  },
+  "ts:Describe": {
+    "description": "New Describe",
+    "prefix": "ts-describe",
+    "body": [
+      "describe(\"${1:Name}\", () => {",
+      "\t$0",
+      "});",
+    ]
+  },
+  "ts:It": {
+    "description": "New It",
+    "prefix": "ts-it",
+    "body": [
+      "it(\"${1:Name}\", async () => {",
+      "\t$0",
+      "});",
+    ]
+  },
+  "ts:loadFixture": {
+    "description": "LoadFixture",
+    "prefix": "ts-loadFixture",
+    "body": [
+      "const { $0 } = await loadFixture(initFixture)",
+    ]
+  },
+  
+  
+ 
+}
